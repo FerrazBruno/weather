@@ -12,7 +12,7 @@
                                            :tomorrow {:label "Tomorrow"
                                                       :value nil}}}))
 
-(def api-key "3b4f28c749b310f10aa8aac4cdee4f9c")
+(def api-key "api_key")
 
 (defn handle-response [resp]
   (let [today (get-in resp ["list" 0 "main" "temp"])
