@@ -1,5 +1,4 @@
-^{:watch-dirs ["test" "src"]
+^{:watch-dirs ["src"]
   :css-dirs ["resources/public/css"]
-  :auto-testing true
-   }
+  :auto-testing true}
 {:main learn-cljs.weather}
